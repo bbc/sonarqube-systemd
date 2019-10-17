@@ -1,0 +1,9 @@
+*.zip
+BUILD/
+RPMS/
+SRPMS/
+BUILDROOT
+tmp
+repo/repodata/
+repo/x86_64/
+.project

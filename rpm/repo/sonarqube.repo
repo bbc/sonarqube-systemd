@@ -1,0 +1,4 @@
+[sonarqube]
+name=SonarQube
+baseurl=https://dev-bigoup01-sonarqube.s3-eu-west-1.amazonaws.com/rpm
+gpgcheck=0
