@@ -2,6 +2,7 @@
 Description=SonarQube Community Edition
 Wants=network-online.target
 After=network.target network-online.target
+
 [Service]
 ExecStart=/opt/sonarqube/bin/linux-x86-64/sonar.sh start
 ExecStop=/opt/sonarqube/bin/linux-x86-64/sonar.sh stop
@@ -9,5 +10,10 @@ User=sonarqube
 Group=sonarqube
 Type=forking
 PIDFile=/opt/sonarqube/bin/linux-x86-64/SonarQube.pid
+# Raise max file descriptors for Elasticsearch.
+LimitNOFILE=65535
+# Raise max virtual memory areas for Elasticsearch.
+ExecStartPre=+/usr/sbin/sysctl -w vm.max_map_count=262144
+
 [Install]
 WantedBy=multi-user.target
