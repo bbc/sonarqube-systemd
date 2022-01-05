@@ -40,7 +40,7 @@ Find the project useful, fun or interesting? **Star** the repository by clicking
 
 The following open-source tools are central part of this project:
 * [SonarQube](https://github.com/SonarSource/sonarqube), released by SonarSource under the [LGPL-3.0 License](https://github.com/SonarSource/sonarqube/blob/master/LICENSE.txt).
-* [systemd](https://github.com/systemd/systemd), released under the [LGPL-2. License](https://github.com/systemd/systemd/blob/master/LICENSE.LGPL2.1).
+* [systemd](https://github.com/systemd/systemd), released under the [LGPL-2.1 License](https://github.com/systemd/systemd/blob/master/LICENSE.LGPL2.1).
 
 ## License and copyright
 
